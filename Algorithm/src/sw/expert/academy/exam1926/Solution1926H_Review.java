@@ -2,14 +2,8 @@ package sw.expert.academy.exam1926;
 
 import java.util.Scanner;
 
-/**
- * 1926. 간단한 369게임 D2
- * 송현주
- */
-public class Solution1926H {
-
+public class Solution1926H_Review {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -17,9 +11,9 @@ public class Solution1926H {
         for (int i = 1; i <= n; i++) {
             answer += i + " ";
         }
-        answer = answer.replaceAll("[369]", "-");
-        answer = answer.replaceAll("[0124578]+-|-[0124578]+", "-");
 
+        answer = answer.replaceAll("[0124578]*[369][0124578]*", "-");
         System.out.println(answer);
+
     }
 }
