@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 송현주
  **/
 
-public class Solution2444 {
+public class SolutionH {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder answer = new StringBuilder();
