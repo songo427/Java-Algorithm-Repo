@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 1989. 초심자의 회문 검사 송현주
  **/
 
-public class SolutionH {
+public class Solution1989H {
 	public static void main(String args[]) {
 
 		Scanner sc = new Scanner(System.in);

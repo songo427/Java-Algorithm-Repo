@@ -9,7 +9,7 @@ import java.util.Set;
  * 송현주
  **/
 
-public class SolutionH {
+public class Solution2007H {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
