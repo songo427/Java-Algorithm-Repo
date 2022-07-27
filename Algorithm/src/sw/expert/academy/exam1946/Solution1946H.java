@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 송현주
  **/
 
-public class SolutionH {
+public class Solution1946H {
 
 	public static void main(String args[]) throws Exception {
 
