@@ -30,3 +30,6 @@ replay_pid*
 
 # /out folder
 Algorithm/out/*
+
+
+*.iml
