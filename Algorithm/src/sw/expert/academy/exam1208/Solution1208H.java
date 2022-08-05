@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 송현주
  */
 
-public class Solution1208 {
+public class Solution1208H {
 
     public static void main(String args[]) {
 
