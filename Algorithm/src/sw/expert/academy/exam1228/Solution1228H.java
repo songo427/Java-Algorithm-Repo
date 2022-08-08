@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
- * 1288. 새로운 불면증 치료법
+ * 1228. [S/W 문제해결 기본] 8일차 - 암호문1
  * 송현주
  */
 
