@@ -7,6 +7,11 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/**
+ * 1158. 요세푸스 문제
+ * 송현주
+ */
+
 public class Solution1158H {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
