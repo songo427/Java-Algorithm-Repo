@@ -5,6 +5,7 @@ import java.util.*;
 
 /**
  * 1976. 시각 덧셈
+ * 이다은
  */
 public class Solution1976D {
     public static void main(String[] args) throws IOException {
