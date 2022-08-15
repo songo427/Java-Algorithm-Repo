@@ -1,4 +1,4 @@
-package baekjoon.exam1260;
+package baekjoon.silver.exam1260;
 
 import java.io.*;
 import java.util.*;
