@@ -13,7 +13,6 @@ public class Solution6603H {
 
     static int K;
     static int[] inputNums, lottoNums;
-    static boolean[] isSelected;
     static StringBuilder answer;
 
     public static void main(String[] args) throws IOException {
@@ -21,25 +20,30 @@ public class Solution6603H {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
+
             answer = new StringBuilder();
             String input = br.readLine();
-            if (input.equals("0")) return;
-            StringTokenizer tokenizer = new StringTokenizer(input, " ");
 
+            // 입력이 0이면 종료
+            if (input.equals("0")) return;
+
+            // 입력
+            StringTokenizer tokenizer = new StringTokenizer(input, " ");
             K = Integer.parseInt(tokenizer.nextToken());
             inputNums = new int[K];
             lottoNums = new int[6];
-            isSelected = new boolean[50];
             for (int i = 0; i < K; i++) {
                 inputNums[i] = Integer.parseInt(tokenizer.nextToken());
             }
+
+            // 로또 번호 조합
             comb(0, 0);
             answer.append("\n");
             System.out.print(answer);
         }
-
     }
 
+    // 로또 번호 조합
     private static void comb(int start, int cnt) {
         if (cnt == 6) {
             printLottoNums();
@@ -47,13 +51,12 @@ public class Solution6603H {
         }
 
         for (int i = start; i < K; i++) {
-            isSelected[i] = true;
             lottoNums[cnt] = inputNums[i];
             comb(i + 1, cnt + 1);
-            isSelected[i] = false;
         }
     }
 
+    // 번호 출력
     private static void printLottoNums() {
         for (int num : lottoNums) {
             answer.append(num + " ");
