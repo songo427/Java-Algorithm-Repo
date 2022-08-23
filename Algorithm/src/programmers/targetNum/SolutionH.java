@@ -25,11 +25,11 @@ public class SolutionH {
         numbers = input;
         target = t;
         operators = new int[N];
-        comb(0, 0);
+        perm(0, 0);
         return answer;
     }
 
-    public static void comb(int cnt, int start) {
+    public static void perm(int cnt, int start) {
         if (cnt == N) {
             int sum = 0;
             for (int i = 0; i < N; i++) {
@@ -43,7 +43,7 @@ public class SolutionH {
 
         for (int i = start; i < 2; i++) {
             operators[cnt] = i;
-            comb(cnt + 1, start);
+            perm(cnt + 1, start);
         }
     }
 }
