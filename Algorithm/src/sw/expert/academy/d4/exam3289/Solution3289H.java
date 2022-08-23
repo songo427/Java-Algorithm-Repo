@@ -3,8 +3,6 @@ package sw.expert.academy.d4.exam3289;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.StringTokenizer;
 
 /**
@@ -20,7 +18,7 @@ public class Solution3289H {
     private static void makeSet() {
         parents = new int[N + 1];
         for (int i = 1; i <= N; i++) {
-            parents[i] = i; 
+            parents[i] = i;
         }
     }
 
@@ -68,7 +66,7 @@ public class Solution3289H {
     }
 }
 
-class Edge implements Comparable<Edge> {
+class Edge {
 
     int from, to, type;
 
@@ -76,19 +74,5 @@ class Edge implements Comparable<Edge> {
         this.type = type;
         this.from = from;
         this.to = to;
-    }
-
-    @Override
-    public String toString() {
-        return "Edge{" +
-                "from=" + from +
-                ", to=" + to +
-                ", type=" + type +
-                '}';
-    }
-
-    @Override
-    public int compareTo(Edge o) {
-        return 0;
     }
 }
