@@ -25,22 +25,24 @@ public class Solution15649H {
         combinedNums = new int[M];
         isSelected = new boolean[N + 1];
 
-        solution(0, 1);
+        perm(0);
         System.out.print(answer);
     }
 
-    private static void solution(int cnt, int start) {
+    private static void perm(int cnt) {
         if (cnt == M) {
             printNums(combinedNums);
             return;
         }
 
-        for (int i = start; i <= N; i++) {
+        for (int i = 1; i <= N; i++) {
+
             if(isSelected[i]) continue;
 
             combinedNums[cnt] = i;
             isSelected[i] = true;
-            solution(cnt + 1, start);
+
+            perm(cnt + 1);
             isSelected[i] = false;
         }
     }
