@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 3085.사탕게임
+ * 3085.사탕 게임
  * 송현주
  */
 public class Solution3085H {
@@ -31,6 +31,7 @@ public class Solution3085H {
             for (int j = 0; j < N; j++) {
                 search(i, j);
             }
+            if (maxCount == N) break;
         }
         System.out.print(maxCount);
     }
@@ -48,7 +49,7 @@ public class Solution3085H {
 
             // swap
             swapCandy(x, y, nx, ny);
-            findMaxColor();
+            findMaxLine();
             swapCandy(x, y, nx, ny);
         }
     }
@@ -66,7 +67,7 @@ public class Solution3085H {
     }
 
     // 가장 긴 연속된 부분 찾기(행/열)
-    private static void findMaxColor() {
+    private static void findMaxLine() {
 
         for (int i = 0; i < N; i++) {
 
