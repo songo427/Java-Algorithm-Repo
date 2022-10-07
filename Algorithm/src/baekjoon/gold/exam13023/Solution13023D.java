@@ -3,6 +3,10 @@ package baekjoon.gold.exam13023;
 import java.io.*;
 import java.util.*;
 
+/**
+ * 13023. ABCDE
+ * 이다은
+ */
 public class Solution13023D {
     static int N;
     static ArrayList<Integer>[] rel;

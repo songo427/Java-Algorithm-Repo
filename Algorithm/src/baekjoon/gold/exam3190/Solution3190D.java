@@ -95,7 +95,7 @@ public class Solution3190D {
 
     }
 
-    // 뱀의 벽이나 몸통에 부딪혔는지 확인하는 메소드
+    // 뱀이 벽이나 몸통에 부딪혔는지 확인하는 메소드
     static boolean isReachable() {
         int[] p = snake.peekLast();
         if (p[0] == 0 || p[1] == 0 || p[0] > N || p[1] > N || board[p[0]][p[1]]) {
