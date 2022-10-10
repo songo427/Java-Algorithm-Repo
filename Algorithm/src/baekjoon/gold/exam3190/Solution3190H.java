@@ -79,7 +79,7 @@ public class Solution3190H {
         dequeue.add(snakePoint);
         int dir = 3; // 시작은 오른쪽부터
 
-        
+
         // 방향 전환 시간만큼 움직임
         int prevTime = 0; // 누적 시간
         for (int i = 0; i < cnt; i++) {
