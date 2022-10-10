@@ -69,6 +69,7 @@ public class Solution13023H {
             if (visited[v]) continue;
             dfs(v, cnt + 1);
         }
+        // 방문 노드 해제 - 안되는 경우 다시 해제
         visited[current] = false;
     }
 }
