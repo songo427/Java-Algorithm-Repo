@@ -5,7 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BeakJoon1743D {
+/**
+ * 1743. 음식물 피하기
+ * 이다은
+ */
+public class Solution1743D {
     static int N;
     static int M;
 
