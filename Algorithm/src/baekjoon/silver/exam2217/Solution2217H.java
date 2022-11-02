@@ -24,7 +24,6 @@ public class Solution2217H {
 
         // 정렬 - 내림차순
         Arrays.sort(items, Collections.reverseOrder());
-        System.out.println(Arrays.toString(items));
 
 
         int answer = 0;
