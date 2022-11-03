@@ -70,11 +70,15 @@
 |BJ11| 10월3주차| S2 | 1654 |   랜선 자르기   |   -  |  ✓  | ✓ |
 |BJ12| 10월3주차| S4 | 1049 |   기타줄   |   ✓  |  ✓  | ✓ |
 
+<br/>
+
 ### 💡 BaekJoon (Java, Javascript, Python)
 |구분|  진행기간  | 난이도 |  번호  |        제목         | 송현주 | 이다은  | 리뷰  |
 |:---:|:-----:|:---:|:----:|:-----------------:|:--:|:----:|:---:|
-|SW1| 11월 1주차| - | 1461 |  [도서관](https://www.acmicpc.net/problem/1461)   |  -  |  -  | - |
-|SW2| 11월 1주차| - | 2141 |  [우체국](https://www.acmicpc.net/problem/2141)   |  -  |  -  | - |
+|BJ1| 11월 1주차| G5 | 1461 |  [도서관](https://www.acmicpc.net/problem/1461)   |  -  |  -  | - |
+|BJ2| 11월 1주차| G4 | 2141 |  [우체국](https://www.acmicpc.net/problem/2141)   |  -  |  -  | - |
+|BJ3| 11월 1주차| S1 | 1446 |  [지름길](https://www.acmicpc.net/problem/1446)   |  -  |  -  | - |
+|BJ4| 11월 1주차| S2 | 18352 |  [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)   |  -  |  -  | - |
 
  
  
